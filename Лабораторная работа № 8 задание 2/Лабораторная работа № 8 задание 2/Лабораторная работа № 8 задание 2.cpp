@@ -76,7 +76,7 @@ void addNode(list& Head, int nom, double newItem)     // Добавление э
         cout << "Неверный номер элемента" << endl;
     }
     //текущая нода
-    list current = Head, p, u;
+    list current = Head, p;
 
     for (int i = 1; i < nom; i++)
     {
